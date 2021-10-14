@@ -1,0 +1,11 @@
+@Entity
+@Table(name="Client")
+public class Client implements Serializable{
+    @Id
+    private int Id;
+    private String  nombre;
+    private String email;
+    private int ano;
+    private String constrasena;
+
+}
